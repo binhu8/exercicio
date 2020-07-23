@@ -1,0 +1,352 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eceff1;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height:18vh;
+    background-color: #fff;
+}
+p{
+    color: #777;
+    text-align: justify;
+    font-size: 11px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    margin-right: 200px;
+    margin-top: 25px;
+}
+a{
+    color: #3b5998;
+    text-decoration: none;
+}
+.rodape{
+    margin-left: 20%;
+    margin-top: 15px;
+}
+
+.itemTexto{
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.itemLimite{
+    margin-right: 15%;
+    margin-left: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px
+}
+
+
+.cabecalho{
+    display: flex;
+    width: 100%px;
+    height: 13vh;
+    border: solid 1px #263238;
+    background-image: linear-gradient(#4e69a2, #3b5998 50%);
+    justify-content: flex-end;
+}
+
+.boxEmail{
+    font-weight: normal;
+    font-family:  Helvetica, sans-serif;
+    font-size: 13px;
+    outline: none;
+    color: #fff;
+    width: 150px;
+    height: 60px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.boxSenha{
+    font-weight: normal;
+    font-family:  Helvetica, sans-serif;
+    font-size: 13px;
+    outline: none;
+    color: #fff;
+    width: 100px;
+    height: 60px;
+    margin-right: 70px;
+    margin-top: 15px;
+}
+
+#senhaLogin, #emailLogin{
+    outline: none;
+    width: 150px;
+    height: 18px;
+    border: solid 1px #0e0e0e;
+}
+
+#esqueceuConta{
+    font-size: 11px;
+    color: #eee;
+    text-decoration: none;
+    margin-top: 70px;
+    margin-right: 2px;
+}
+
+.entrarButton{
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    color: #f3f3f3;
+    text-align: center;
+    padding-top: 3px;
+    width: 50px;
+    height: 20px;
+    margin-top: 29px;
+    margin-right: 11%;
+    border-radius: 2px;
+    background-color: #0277bd;
+    border: solid 1px #333;
+}
+.entrarButton:hover{
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    color: #f1f1f1;
+    text-align: center;
+    padding-top: 3px;
+    width: 50px;
+    height: 20px;
+    margin-top: 29px;
+    margin-right: 11%;
+    border-radius: 2px;
+    background-color: #004369;
+    border: solid 1px #333;
+}
+
+
+
+
+.corpo{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: flex-end;  
+    justify-self: auto;  
+}
+
+.cadastro{
+    width: 40%;
+    height: 100vh;
+    align-items: end;
+}
+.criarNovaConta{
+    font-family: Helvetica, sans-serif;
+    font-size: 35px;
+    margin-top: 20px;
+    color: #333
+}
+.subtitulo{
+    color: #333;
+    font-family:  sans-serif;
+    font-weight: normal;
+    margin-top: -20px;
+    font-size: 20px;
+}
+
+#nome{
+    font-size: 18px;
+    padding: 10px;
+    outline: none;
+    margin-top: 20px;
+    width: 30%;
+    height: 18px;
+    border: solid 1px #a8c9da;
+    border-radius: 5px;
+}
+
+#sobrenome{
+    font-size: 18px;
+    padding: 10px;
+    outline: none;
+    margin-left: 2%;
+    margin-right: 5%;
+    width: 31%;
+    height: 18px;
+    border: solid 1px #a8c9da;
+    border-radius: 5px;
+}
+
+#emailCadastro{
+    font-size: 18px;
+    padding: 10px;
+    outline: none;
+    margin-top: 10px;
+    margin-right: 5%;
+    width: 68%;
+    height: 18px;
+    border: solid 1px #a8c9da;
+    border-radius: 5px;  
+}
+
+#senhaCadastro{
+    padding: 10px;
+    font-size: 18px;
+    text-align: left;
+    size: 30px;
+    outline: none;
+    margin-top: 10px;
+    margin-right: 5%;
+    width: 68%;
+    height: 20px;
+    border: solid 1px #a8c9da;
+    border-radius: 5px; 
+}
+
+.itemData, .sexo{
+    color: #999;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+#diaNascimento, #mesNascimento, #anoNascimento{
+    width: 70px;
+    height: 30px;
+    font-size: 13px;
+    border-radius: 1px;
+    border-color: #8da5b1;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#genero{
+    color: #555;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botaoCadastro{
+    outline: none;
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-image: linear-gradient(#67ae55, #578843);
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: bold;
+    color: #fefefe;
+}
+
+.divisoria{
+    width: 70%;
+    height: 1px;
+    background-color: #ddd;
+    margin-top: 20px;
+}
+
+.sloganRp{
+    margin-top: 9px;
+    font-size: 12px;
+}
+
+.maisIdiomas{
+    width: 30px;
+    margin-left: 9px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: 800;
+}
+
+.divisoria2{
+    width: 920px;
+    height: 1px;
+    background-color: #ddd;
+    margin-top: 9px;
+}
+
+.recentes{
+
+    width: 60%;
+    height: 100vh;
+}
+
+.loginsRec{
+    margin-left: 25%;
+    color: #333;
+    font-family: Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.cliqueNaFoto{
+    margin-left: 25%;
+    margin-top: -25px;
+    color: #333;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    
+}
+
+.cardLogin{
+    display: flex;
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: #fefefe;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.cardLogin:hover{
+    display: flex;
+    width: 150px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: #fefefe;
+    margin-left: 200px;
+    margin-top: 30px;
+    box-shadow: 1px 1px 10px 0.1px #8f8f8fa1;
+}
+
+.imagemPerfil{
+    display: flex;
+    width: 200px;
+    height: 150px;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #f5f5f5;
+    
+}
+
+#addConta{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #fefefe;
+    outline: none;
+    width: 45px;
+    height: 45px;
+    border-radius: 40px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: #0d47a1;
+    border-color: #f5f5f5;
+    box-shadow: inset 0 0.1px 0.1px #dadada;
+    border-bottom: #fefefe;
+    border-top: #fefefe;
+}
+
+#adConta{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    margin-top: 70px;
+    margin-left: 15px;
+    color: #3b5998;
+}
+
+#logo{
+    margin-top: -40px;
+    margin-right: 390px;
+}
+
